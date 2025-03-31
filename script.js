@@ -55,12 +55,12 @@ const createMembersCard = (members) => {
 }
 
 //funziona che mi renderizza il contenuto dell'array
-const renderTeam = () => {
+const renderTeam = () => { 
   //dichiaro una varaibile con valore stringa vuota che conterrà tutte le colonne da mostrare
   let cards = "";
 
   for (let i = 0; i < teamMembers.length; i++) {
-    cards += createMembersCard(teamMembers[i]);
+    cards += createMembersCard(teamMembers[i]); 
   }
 
   document.getElementById("team-members").innerHTML = cards
