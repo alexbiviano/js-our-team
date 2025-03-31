@@ -1,0 +1,21 @@
+body {
+
+    font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+
+.h2{
+    color:#E53170 ;
+}
+
+img{
+    width: 120px;
+}
