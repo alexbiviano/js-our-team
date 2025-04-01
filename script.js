@@ -54,9 +54,24 @@ const createMembersCard = (members) => {
   return card
 }
 
-//funziona che mi renderizza il contenuto dell'array
+const addMember = (members) =>{
+  const nome = nameField.value;
+  const ruolo = roleField.value;
+  const email = rolField.value;
+  const immagine = roleField.value; 
+}
+
+const newMember = {
+  nome, 
+  ruol,
+  email,
+  immagine
+}
+
+members.push(newMember);
+
 const renderTeam = () => { 
-  //dichiaro una varaibile con valore stringa vuota che conterrà tutte le colonne da mostrare
+
   let cards = "";
 
   for (let i = 0; i < teamMembers.length; i++) {
